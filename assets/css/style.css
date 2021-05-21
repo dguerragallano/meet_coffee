@@ -1,0 +1,183 @@
+body {
+    color: #000f08;
+    text-align: center;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 3.75em;
+    margin-bottom: 0.25em;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+#location h2 {
+    margin: 1em auto;
+}
+
+.sweet-brown h2, .sweet-brown h5 {
+    margin-bottom: 0.5em;
+}
+
+#events h2 {
+    margin-bottom: 1em;
+}
+
+h3{
+    font-size: 2em;
+}
+
+#events h3 {
+    margin: 1em;
+}
+
+.subtitle, h4, h5  {
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 1.75em;
+}
+
+h5 {
+    font-size: 1.25em;
+}
+
+nav {
+    text-align: left;
+    padding: 1.25rem 4rem;
+    position: fixed;
+    width: 100vw;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 1em;
+    vertical-align: middle;
+}
+
+.dark {
+    background-color: #000f08;
+    color: #fff;
+}
+
+.dark a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.icon {
+    width: 2rem;
+}
+
+.icon svg {
+    fill: #fff;
+}
+
+.hero-section {
+    background-image: url('../img/bg-hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: right;
+    text-shadow: 0.125em 0.25em 0.125em #707070;
+    padding: 7.125rem 3.125rem 6.125rem 3.125rem;
+}
+
+.sweet-brown {
+    background-color: #A4452C;
+    text-align: left;
+    color: #fff;
+    padding: 50px;
+    white-space: nowrap;
+}
+
+section, footer {
+    margin-top: 75px;
+}
+
+.speaker-img, .speaker-text, .event {
+    display: inline-block;
+}
+
+.center {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.speaker-img {
+    width: 25%;
+    vertical-align: middle;
+}
+
+.speaker-text {
+    width: 72.5%;
+    vertical-align: middle;
+    margin-left: 2.5%;
+    white-space: normal;
+}
+
+.event {
+width: 30%;
+vertical-align: top;
+}
+
+.event a {
+    text-decoration: none;
+    color: #000F08;
+}
+
+.event img {
+    width: 75%;
+}
+
+footer {
+    padding: 50px;
+}
+
+footer i {
+    margin: 0 0.25em 0.5em 0.25em;
+}
+
+/* CSS Simposio-veganDB.html */
+
+#simposio-vegandb {
+    width: 56%;
+    margin: 0% 22%;
+    text-align: left;
+    padding-top: 6.25rem;
+    padding-bottom: 3rem;
+}
+
+#simposio-vegandb h2 {
+    margin: 1em 0;
+}
+
+#simposio-vegandb h3 {
+    margin-top: 1em;
+}
+
+#simposio-vegandb p {
+    margin-top: 1em;
+}
+
+#simposio-vegandb img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
